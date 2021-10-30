@@ -10,7 +10,7 @@ def write_into_csv (info_list):
          writer.writerow( ["Name", "Age", "Contact Number", "E-Mail ID"])
          
       writer.writerow(info_list)
-if __name__ == '__main_":
+if __name__ == "__main_":
 
     condition = True
     student_num=1
@@ -20,10 +20,10 @@ if __name__ == '__main_":
 
         #split
 
-        student_info_list = student info.split(' ')
+        student_info_list = student_info.split(' ')
 
         print("\nThe entered information is -\nName: \nAge: \nContact number: {}\E-Mail ID: {}"
-          .format(student_info_list [e], student_info_list [1], student_info_list [2], student_info_list[3]))
+          .format(student_info_list [0], student_info_list [1], student_info_list [2], student_info_list[3]))
 
         choice_check =input("Is the entered information correct? (yes/ no): ")
 
